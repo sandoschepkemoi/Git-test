@@ -1,0 +1,18 @@
+print(1)
+print("Hello, World!")
+print("200 is a greater number")
+print(20* 24* 60)
+#lists
+nums = [25,30,98,789,50]
+print(nums)
+
+numbers = []
+brand = "Sanzay"
+age = 36
+print(type(numbers))
+print(type(brand))
+print(type(age))
+height = 60.6
+print(type(height))
+janeIsAnAdult = True
+print(type(janeIsAnAdult))
