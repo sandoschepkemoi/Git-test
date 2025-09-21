@@ -1,0 +1,19 @@
+/*generate a code that display the sales , taxes and total taxes in c++*/
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    double sales = 95000;
+    cout<<"sales : $"<<sales<<endl;
+    const double state_tax_rate = .04;
+    double state_tax = sales* state_tax_rate;
+    cout<<"stateTax : $"<<state_tax<<endl;
+    const double county_tax_rate = .02;
+    double county_tax = sales* county_tax_rate;
+    cout<<"county_tax : $"<<county_tax<<endl;
+    const double total_tax = state_tax + county_tax;
+    cout<< "totalTax :"<<total_tax<<endl;
+    
+return 0;
+}
